@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    /**colour of whole page**/
+    background-color:#ffff;
+  }
+  .menu ul{
+      display: inline-flex;
+      margin: 50px;
+  }
+  .menu ul li{
+      list-style: none;
+      margin: 0 20px;
+      /** colour of menu upper**/
+      color: #0b0c0c;
+      cursor: pointer;
+}
